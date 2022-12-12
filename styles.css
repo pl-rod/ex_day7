@@ -1,0 +1,41 @@
+.container{
+    width:600px;
+    height:400px;
+    background-color: black;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    font-weight:bold;
+    
+}
+
+.h-f{
+    background-color: aquamarine;
+    height: 100px;
+    padding:10px;
+}
+
+.middle{
+    display: flex;
+    height:400px;
+    
+}
+
+.middle>div{
+    padding: 10px;;
+}
+
+.navigation{
+    background-color: #d9b100;
+    width: 100px;
+}
+
+.article{
+    background-color: #ead812;
+    width: 300px;;
+}
+
+.aside{
+    background-color: #f7ed7c;
+    width: 200px;
+}
